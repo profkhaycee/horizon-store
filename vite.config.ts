@@ -8,6 +8,6 @@ export default defineConfig({
     react(), 
     tailwindcss()
   ],
-  base: '/horizon-store/',
+  base: process.env.VITE_BASE_PATH || '/horizon-store',
   
 })
