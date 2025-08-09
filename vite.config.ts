@@ -9,6 +9,6 @@ export default defineConfig({
     tailwindcss()
   ],
   // base: process.env.VITE_BASE_PATH || '/horizon-store',
-  base: '/horizon-store',
+  base: '/',
   
 })
