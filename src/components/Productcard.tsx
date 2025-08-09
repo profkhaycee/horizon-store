@@ -31,8 +31,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart }) => {
                     {product.name}
                   </h3>
                   
-                  <div className="flex flex-col items-center justify-between">
-                    <div className="flex items-center space-x-2">
+                  <div className="flex flex-col justify-between">
+                    <div className="flex items-center justify-left space-x-2">
                       <span className="text-xl font-bold text-gray-900">₦{product.price}</span>
                       {product.originalPrice && (
                         <span className="text-sm text-gray-500 line-through">₦{product.originalPrice}</span>

@@ -13,9 +13,11 @@ const Header: React.FC<HeaderProps> = ({cartCount}) => {
         <div className="flex justify-between items-center space-x-8">
           <div className="flex items-center">
             <img src="/images/horizon-logo.png" className="logo-main" />
-            <div className="text-xl font-bold bg-gradient-to-r from-blue-500 to-sky-700 bg-clip-text text-transparent mr-auto">
+            
+            <div className="hidden lg:block text-xl font-bold bg-gradient-to-r from-blue-500 to-sky-700 bg-clip-text text-transparent mr-auto">
               <span>Horizon Store </span>
             </div>
+            
           </div>
         </div>
         <nav className="hidden md:flex space-x-8">
