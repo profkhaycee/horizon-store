@@ -8,5 +8,5 @@ export default defineConfig({
     react(), 
     tailwindcss()
   ],
-  base: '/horizon-store'
+  base: '/horizon-store/'
 })
